@@ -1,47 +1,55 @@
 # mks teste
 
--> Consideracoes
+-> Considerações
 
 Nao consegui finalizar o teste, pois tive pouco tempo para realizar o mesmo, ja que durante a semana trabalho e faco faculdade...
 
 Parei na parte de fazer a Autenticação JWT
-Fiz as migrations de User, porem ja e 11 horas e amanha trabalho cedo, vou parar por aqui, se puderem me dar mais tempo.
+Fiz as migrations de User, porem ja e 11 horas e amanha trabalho cedo, vou parar por aqui, se puderem me dar mais tempo. de qualquer forma, obrigado!
 
-## de qualquer forma, obrigado!
+---
 
-###Como instalar###
+# Como instalar
 
-## dependencias de dev.
+-> dependencias de dev.
 
-## Para instalar as dependencias de dev, npm install.
+Para instalar as dependencias de dev, npm install.
 
-arquivo .env que usei local.
+---
+
+# Arquivo .env que usei local.
 
 DB_HOST=localhost
+
 DB_PORT=5432
+
 DB_USER=postgres
+
 DB_PASS=postgres
+
 DB_NAME=api_rest_film
 
-## PORT=3000
+PORT=3000
 
-Gerar as migrations para o banco de dados
+---
 
-## npm run migration:generate
+# Gerar as migrations para o banco de dados
 
-importando as migrations para o banco
+npm run migration:generate
+
+# Importando as migrations para o banco.
 
 npm run migration:run
 
 ---
 
-Iniciar api
+# Iniciar API
 
 npm run dev
 
 ---
 
-ANDPOINT da API
+# Endpoint da API
 
 Lista de Filmes
 
